@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    <title>sign in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="content-img">
+                <div class="content__logo">
+                    m
+                </div>
+                <div class="content__logo-text">
+                    Maglo.
+                </div>
+            </div>
+            <div class="content__title">Welcome back</div>
+            <div class="content__text">Welcome back! Please enter your details</div>
+            <form id="myform">
+                <label for="email" class="label" id ="labelform">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <p class="error-sms"></p>
+                <label for="pwd" class="label">Password:</label>
+                <br>
+                <input type="password" id="pwd" name="pwd" placeholder="Password">
+                <div class="chetbox">
+               <div><input type="checkbox" value="lsRememberMe" id="rememberMe">
+                <label for="rememberMe">Remember me For 30 Days</label>
+                <br>
+                </div>
+                <div class="remember-pasword">Fargot password</div>
+                </div>
+                <input type="submit" value="Sing in" id="sub">
+                
+            </form>
+            <div class="sign-google"><img src="img/search.png" alt="">Sign in with google</div>
+            <div class="for-free">Don't have an account? <button type="button" id="sing" onclick="sign()"> Sign up of free</button></div>
+        </div>
+        <div class="clock">
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
